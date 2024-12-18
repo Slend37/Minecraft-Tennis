@@ -25,7 +25,7 @@ public class GameEnd implements CommandExecutor {
             Tennisball.game1 = false;
             Duration duration = Duration.between(Tennisball.gtime1, end);
             Bukkit.getServer().broadcastMessage("Game Finished!");
-            Bukkit.getServer().broadcastMessage(Tennisball.player1 + " " + Tennisball.score1 + " vs. "+ Tennisball.score2 + " " +Tennisball.player2);
+            Bukkit.getServer().broadcastMessage(Tennisball.player1 + " " + Tennisball.score1 + " vs. " + Tennisball.score2 + " " + Tennisball.player2);
             Bukkit.getServer().broadcastMessage(String.valueOf(duration));
             Tennisball.player1 = "no";
             Tennisball.player2 = "no";
@@ -33,7 +33,7 @@ public class GameEnd implements CommandExecutor {
             Tennisball.game2 = false;
             Duration duration = Duration.between(Tennisball.gtime2, end);
             Bukkit.getServer().broadcastMessage("Game Finished!");
-            Bukkit.getServer().broadcastMessage(Tennisball.player3 + " " + Tennisball.score3 + " vs. "+ Tennisball.score4 + " " +Tennisball.player4);
+            Bukkit.getServer().broadcastMessage(Tennisball.player3 + " " + Tennisball.score3 + " vs. " + Tennisball.score4 + " " + Tennisball.player4);
             Bukkit.getServer().broadcastMessage(String.valueOf(duration));
             Tennisball.player3 = "no";
             Tennisball.player4 = "no";
