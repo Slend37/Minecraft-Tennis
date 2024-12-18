@@ -20,9 +20,9 @@ public class WindSet implements CommandExecutor {
             return false;
         }
 
-        Tennisball.wind = 0.45 + a*0.05;
+        Tennisball.wind = 0.45 + a * 0.05;
         Tennisball.winduser = a;
-        Bukkit.getServer().broadcastMessage("Ветер был успешно изменен! Текущее значение: "+Double.toString(Tennisball.winduser)+ " м/с.");
+        Bukkit.getServer().broadcastMessage("Ветер был успешно изменен! Текущее значение: " + Double.toString(Tennisball.winduser) + " м/с.");
         return true;
     }
 }
