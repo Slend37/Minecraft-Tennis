@@ -11,7 +11,7 @@ public class WindCheck implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
         Player player = (Player) sender;
 
-        sender.sendMessage("Текущее значение: "+Double.toString(Tennisball.winduser)+" м/c.");
+        sender.sendMessage("Текущее значение: " + Double.toString(Tennisball.winduser) + " м/c.");
         return true;
     }
 }
