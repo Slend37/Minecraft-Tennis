@@ -26,9 +26,9 @@ public class Events implements Listener {
             Slime slime = (Slime) event.getEntity();
             slime.setGliding(false);
             if (slime.isOnGround() == true){
-                Bukkit.getServer().broadcastMessage(ChatColor.RED + player.getName() +": Shot from the ground!");
+                Bukkit.getServer().broadcastMessage(ChatColor.RED + player.getName() + ": Shot from the ground!");
             }else {
-                player.sendMessage(player.getName() +": "+Double.toString(Double.valueOf(slime.getLocation().getY())));
+                player.sendMessage(player.getName() + ": " + Double.toString(Double.valueOf(slime.getLocation().getY())));
             }
             slime.setVelocity(slime.getVelocity().add(new Vector(0.0, Tennisball.wind, 0.0)));
 
