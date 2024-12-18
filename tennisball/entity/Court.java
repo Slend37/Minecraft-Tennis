@@ -15,13 +15,13 @@ public class Court implements CommandExecutor {
 
         if (type.equalsIgnoreCase("Clay")){
             player.getPlayer().setWalkSpeed((float) 0.27);
-            Bukkit.getServer().broadcastMessage(player.getName() +" has changed the court to Clay");
+            Bukkit.getServer().broadcastMessage(player.getName() + " has changed the court to Clay");
         }else if (type.equalsIgnoreCase("Hard")){
             player.getPlayer().setWalkSpeed((float) 0.30);
-            Bukkit.getServer().broadcastMessage(player.getName() +" has changed the court to Hard");
+            Bukkit.getServer().broadcastMessage(player.getName() + " has changed the court to Hard");
         }else if (type.equalsIgnoreCase("Grass")){
             player.getPlayer().setWalkSpeed((float) 0.33);
-            Bukkit.getServer().broadcastMessage(player.getName() +" has changed the court to Grass");
+            Bukkit.getServer().broadcastMessage(player.getName() + " has changed the court to Grass");
         }else{
             return false;
         }
