@@ -40,7 +40,7 @@ public class GameStart implements CommandExecutor {
             return true;
         }
 
-        Bukkit.getServer().broadcastMessage(String.valueOf(start) + " " + Tennisball.player1 + " vs. "+Tennisball.player2);
+        Bukkit.getServer().broadcastMessage(String.valueOf(start) + " " + Tennisball.player1 + " vs. " + Tennisball.player2);
         return true;
     }
 }
